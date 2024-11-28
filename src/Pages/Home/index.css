@@ -255,6 +255,14 @@
   flex-direction: column;
   justify-content: space-between;
   color: #000;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.HomeDiv_section3_area_cont2_div1:hover {
+  background: #142f32;
+  color: #fff;
+  transition: all 0.3s linear;
+  transform: scale(1.05);
 }
 .HomeDiv_section3_area_cont2_div1_area1 {
   display: flex;
