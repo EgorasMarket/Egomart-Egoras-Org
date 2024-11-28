@@ -1,0 +1,37 @@
+.HeaderDiv {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  padding: 2em 0em;
+  width: -webkit-fill-available;
+  transition: all 0.3s linear;
+}
+.HeaderDiv_fixed {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  padding: 1em 0em;
+  width: -webkit-fill-available;
+  background: #142f32;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+.HeaderDiv_area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HeaderDiv_area_cont1_img {
+  width: 170px;
+}
+
+.HeaderDiv_area_cont2 {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+}
+.HeaderDiv_area_cont2_cont1 {
+  cursor: pointer;
+  padding: 0 2em;
+}
