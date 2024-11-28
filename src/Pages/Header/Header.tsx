@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./index.css";
+import { Menu01Icon } from "hugeicons-react";
 const Header = () => {
   const [fixed, setFixed] = useState(false);
   const handleScroll = () => {
@@ -30,6 +31,7 @@ const Header = () => {
           <div className="HeaderDiv_area_cont3">
             {" "}
             <button className="HomeDiv_section1_area_btn">Get Started</button>
+            <Menu01Icon className="menuIcon" />
           </div>
         </div>
       </div>

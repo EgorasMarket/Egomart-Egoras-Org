@@ -1,5 +1,5 @@
 import "./index.css";
-// import Marquee from "react-fast-marquee";
+import Marquee from "react-fast-marquee";
 import { SecurityIcon } from "hugeicons-react";
 
 const Home = () => {
@@ -62,7 +62,7 @@ const Home = () => {
                   1000+{" "}
                 </div>
                 <div className="HomeDiv_section1_area_div2_cont3_para_tag">
-                  Including offline offchain projects.
+                  Including offchain projects.
                 </div>
               </div>{" "}
               {/* ===== */}
@@ -89,6 +89,70 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <Marquee className="HomeDiv_section1_area_div2_mobile">
+              <div className="HomeDiv_section1_area_div2_cont1">
+                <img
+                  src="/img/manufacture_dummy_img.jpeg"
+                  alt=""
+                  className="HomeDiv_section1_area_div2_cont1_img"
+                />
+              </div>
+              {/* ===== */}
+              {/* ===== */}
+              {/* ===== */}
+              {/* ===== */}
+              <div className="HomeDiv_section1_area_div2_cont2">
+                <div className="HomeDiv_section1_area_div2_cont2_title">
+                  100+
+                </div>
+                <div className="HomeDiv_section1_area_div2_cont2_para">
+                  Our esteemed clients and partners
+                </div>
+              </div>
+              {/* ===== */}
+              {/* ===== */}
+              {/* ===== */}
+              {/* ===== */}
+              <div className="HomeDiv_section1_area_div2_cont3">
+                {/* <div className="HomeDiv_section1_area_div2_cont3_icon_div"></div> */}
+                <SecurityIcon
+                  className="HomeDiv_section1_area_div2_cont3_icon_div"
+                  style={{ marginBottom: "2em" }}
+                />
+                <div className="HomeDiv_section1_area_div2_cont3_title">
+                  Total Projects{" "}
+                </div>
+                <div className="HomeDiv_section1_area_div2_cont3_para">
+                  1000+{" "}
+                </div>
+                <div className="HomeDiv_section1_area_div2_cont3_para_tag">
+                  Including offchain projects.
+                </div>
+              </div>{" "}
+              {/* ===== */}
+              {/* ===== */}
+              {/* ===== */}
+              {/* ===== */}
+              <div className="HomeDiv_section1_area_div2_cont4">
+                <div className="HomeDiv_section1_area_div2_cont2_title">6+</div>
+                <div className="HomeDiv_section1_area_div2_cont2_para">
+                  Years Of Dedicated Service
+                </div>
+              </div>
+              {/* ===== */}
+              {/* ===== */}
+              {/* ===== */}
+              {/* ===== */}
+              <div className="HomeDiv_section1_area_div2_cont5">
+                <SecurityIcon
+                  className="HomeDiv_section1_area_div2_cont5_icon_div"
+                  style={{ marginBottom: "2em" }}
+                />
+                <div className="HomeDiv_section1_area_div2_cont5_para">
+                  Achieve optimal efficiency and boost productivity.
+                </div>
+              </div>
+            </Marquee>
           </div>
         </div>
         <img
@@ -268,7 +332,7 @@ const Home = () => {
             </div>
             <div className="HomeDiv_section5_area_2">
               <img
-                src="/img/egodIllustration.png"
+                src="/img/egodIllustration2.png"
                 alt=""
                 className="HomeDiv_section5_area_2_img"
               />
