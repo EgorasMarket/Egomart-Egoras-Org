@@ -4,7 +4,7 @@
   top: 0;
   padding: 1em 0em;
   width: -webkit-fill-available;
-  transition: all 0.3s linear;
+  transition: all 0.1s linear;
 }
 .HeaderDiv_fixed {
   position: fixed;
@@ -14,7 +14,7 @@
   width: -webkit-fill-available;
   background: #142f32;
   color: #fff;
-  transition: all 0.3s linear;
+  transition: all 0.1s linear;
 }
 .HeaderDiv_area {
   display: flex;

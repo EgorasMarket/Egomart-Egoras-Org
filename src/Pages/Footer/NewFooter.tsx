@@ -291,15 +291,15 @@ const NewFooter = () => {
               <div className="newFooterDiv_area_2_area1">
                 <div className="footerDiv1_area1_cont1">
                   <img
-                    src="/img/egax_logo.png"
+                    src="/egoras_logo_icon.svg"
                     alt=""
                     className="footerDiv1_img2"
                   />
-                  Egochain
+                  Egoras
                 </div>
               </div>
               <div className="newFooterDiv_area_2_area2">
-                © {currentYear} Egochain. All rights reserved.
+                © {currentYear} Egoras.org All rights reserved.
               </div>
             </div>
           </div>

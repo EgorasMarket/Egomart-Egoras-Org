@@ -21,6 +21,7 @@
   height: 100%;
   object-fit: cover;
 }
+
 .HomeDiv_section1_img {
   position: absolute;
   top: 0;
@@ -509,10 +510,10 @@
   width: 150px;
 }
 .HomeDiv_section8_area_title {
-  font-size: 52px;
+  font-size: 32px;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .HomeDiv_section8_area_para {
   width: 50%;
@@ -731,9 +732,9 @@
     overflow: hidden;
   }
   .HomeDiv_section8_area_title {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .HomeDiv_section8_area_para {
     width: 80%;
@@ -812,7 +813,9 @@
     /* justify-content: flex-start; */
     /* grid-gap: 20px; */
     /* gap: 10px; */
-    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px 0px;
   }
   .HomeDiv_section3_area_cont2_div1 {
     padding: 2em;
@@ -822,6 +825,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 250px;
+    margin-right: 1em;
   }
   .HomeDiv_section4_area_body_cont1 {
     height: 150px;
@@ -849,5 +853,6 @@
   }
   .HomeDiv_section8_area_para {
     width: 100%;
+    font-size: 14px;
   }
 }

@@ -465,10 +465,12 @@ const Home = () => {
               alt=""
               className="HomeDiv_section8_area_img"
             />
-            <div className="HomeDiv_section8_area_title">Get Started</div>
+            <div className="HomeDiv_section8_area_title">
+              Still have questions?
+            </div>
             <div className="HomeDiv_section8_area_para">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
-              eveniet eaque temporibus adipisci minima quidem.
+              Can’t find the answer you’re looking for? Please chat to our
+              friendly team.
             </div>
             <button className="HomeDiv_section8_area_btn">Get started</button>
           </div>
