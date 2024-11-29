@@ -20,7 +20,7 @@ const Home = () => {
                 markets, creating jobs and economic opportunities.
               </div>
               <div className="HomeDiv_section1_area_btn_div">
-                <button className="HomeDiv_section1_area_btn">
+                <button className="HomeDiv_section1_area_btn2">
                   Get Started
                 </button>
               </div>

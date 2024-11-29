@@ -68,6 +68,15 @@
   align-items: center;
   justify-content: center;
 }
+.HomeDiv_section1_area_btn2 {
+  width: 150px;
+  padding: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  background: #0bad86;
+  color: #fff;
+  border: none;
+}
 .HomeDiv_section1_area_btn {
   width: 150px;
   padding: 18px;
