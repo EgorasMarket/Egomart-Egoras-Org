@@ -23,10 +23,17 @@ const Header = () => {
             />
           </div>
           <div className="HeaderDiv_area_cont2">
-            <div className="HeaderDiv_area_cont2_cont1">EGOD</div>
-            <div className="HeaderDiv_area_cont2_cont1">Products</div>
+            <a
+              href="/about/egod"
+              className="HeaderDiv_area_cont2_cont1"
+              style={{ color: "#fff" }}
+            >
+              EGOD
+            </a>
+            <div className="HeaderDiv_area_cont2_cont1">Platforms</div>
             <div className="HeaderDiv_area_cont2_cont1">Developers</div>
-            <div className="HeaderDiv_area_cont2_cont1">Company</div>
+            <div className="HeaderDiv_area_cont2_cont1">Resources</div>
+            <div className="HeaderDiv_area_cont2_cont1">Transparency</div>
           </div>
           <div className="HeaderDiv_area_cont3">
             {" "}
